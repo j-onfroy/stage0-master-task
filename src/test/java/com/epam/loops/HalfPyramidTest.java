@@ -49,5 +49,5 @@ class HalfPyramidTest extends BaseIOTest {
         halfPyramid.printHalfPyramid(0);
 
         assertOutEquals("");
-    }
+    }   
 }
