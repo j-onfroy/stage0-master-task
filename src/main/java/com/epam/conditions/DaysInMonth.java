@@ -17,9 +17,9 @@ public class DaysInMonth {
                 }else
                     System.out.println(28);
             }
-            default -> {
+            default ->
                 System.out.println("invalid date");
-            }
+
         }
     }
 

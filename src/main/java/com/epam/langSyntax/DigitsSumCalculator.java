@@ -4,7 +4,7 @@ public class DigitsSumCalculator {
 
     public void calculateSum(int number) {
         int sum = 0;
-        int num = 0;
+        int num;
         while (number > 0) {
             num = number % 10;
             sum = sum + num;

@@ -3,7 +3,7 @@ package com.epam.langSyntax;
 public class NumberReverter {
 
     public void revert(int number) {
-        int residual = 0;
+        int residual;
         int reserveNumber = 0;
         while (number > 0) {
             residual = number % 10;
