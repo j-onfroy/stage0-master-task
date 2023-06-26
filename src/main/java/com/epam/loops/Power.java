@@ -4,11 +4,15 @@ public class Power {
 
     public void printPower(int numberToPrint, int power) {
         int sum = 1;
-        while (power > 0) {
-            sum = sum * numberToPrint;
-            power--;
+        if (numberToPrint == 0) System.out.println(0);
+        else if (power == 0) System.out.println(1);
+        else {
+            while (power > 0) {
+                sum = sum * numberToPrint;
+                power--;
+            }
+            System.out.println(sum);
         }
-        System.out.println(sum);
     }
 
     public static void main(String[] args) {
